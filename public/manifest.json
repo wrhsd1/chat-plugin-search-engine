@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
+  "api": [],
+  "author": "GithuBarry",
+  "homepage": "https://github.com/GithuBarry/chat-plugin-search-engine",
+  "identifier": "search-engine-serper",
+  "meta": {
+    "avatar": "🔍",
+    "tags": ["web", "search"],
+    "title": "Search Engine Serper",
+    "description": "Query search engine to get information"
+  },
+  "openapi": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/openapi.json",
+  "version": "1"
+}
