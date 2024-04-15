@@ -1,15 +1,52 @@
 {
-  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
-  "api": [],
-  "author": "GithuBarry",
+  "author": "Barry",
   "homepage": "https://github.com/GithuBarry/chat-plugin-search-engine",
   "identifier": "search-engine-serper",
+  "api": [
+    {
+      "name": "searchGoogle",
+      "description": "Search Google and return top 10 results",
+      "url": "https://google.serper.dev/search",
+      "parameters": {
+        "type": "object",
+        "required": [
+          "q"
+        ],
+        "properties": {
+          "q": {
+            "type": "string",
+            "example": "今天吃什么"
+          },
+          "gl": {
+            "type": "string",
+            "description": "Google Geo location parameter",
+            "example": "cn"
+          },
+          "hl": {
+            "type": "string",
+            "description": "Google Geo locale parameter",
+            "example": "zh-cn"
+          }
+        }
+      }
+    }
+  ],
   "meta": {
     "avatar": "🔍",
     "tags": ["web", "search"],
-    "title": "Search Engine Serper",
-    "description": "Query search engine to get information"
+    "title": "Search Google via Serper",
+    "description": "Google search engine via Serper.dev free API (2500x🆓/month)"
   },
-  "openapi": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/openapi.json",
-  "version": "1"
+  "settings": {
+    "type": "object",
+    "required": ["X-API-KEY"],
+    "properties": {
+      "X-API-KEY": {
+        "title": "Serper API Key",
+        "description": "The API key for authentication with Serper API",
+        "type": "string",
+        "format": "password"
+      }
+    }
+  }
 }
