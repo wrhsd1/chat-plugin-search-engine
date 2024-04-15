@@ -1,52 +1,18 @@
 {
-  "author": "Barry",
-  "homepage": "https://github.com/GithuBarry/chat-plugin-search-engine",
-  "identifier": "search-engine-serper",
-  "api": [
-    {
-      "name": "searchGoogle",
-      "description": "Search Google and return top 10 results",
-      "url": "https://google.serper.dev/search",
-      "parameters": {
-        "type": "object",
-        "required": [
-          "q"
-        ],
-        "properties": {
-          "q": {
-            "type": "string",
-            "example": "今天吃什么"
-          },
-          "gl": {
-            "type": "string",
-            "description": "Google Geo location parameter",
-            "example": "cn"
-          },
-          "hl": {
-            "type": "string",
-            "description": "Google Geo locale parameter",
-            "example": "zh-cn"
-          }
-        }
-      }
-    }
-  ],
-  "meta": {
-    "avatar": "🔍",
-    "tags": ["web", "search"],
-    "title": "Search Google via Serper",
-    "description": "Google search engine via Serper.dev free API (2500x🆓/month)"
+  "api": {
+    "type": "openapi",
+    "url": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/openapi.json",
+    "is_user_authenticated": false
   },
-  "settings": {
-    "type": "object",
-    "required": ["X-API-KEY"],
-    "properties": {
-      "X-API-KEY": {
-        "title": "Serper API Key",
-        "description": "The API key for authentication with Serper API",
-        "type": "string",
-        "format": "password"
-      }
-    }
-  }
+  "auth": {
+    "type": "none"
+  },
+  "contact_email": "33831597+GithuBarry@users.noreply.github.com",
+  "description_for_human": "Google search engine via Serper.dev free API (2500x🆓/month)",
+  "description_for_model": "Plugin for performing web searches using the Serper.dev API to access Google search results.",
+  "legal_info_url": "https://serper.dev/terms",
+  "logo_url": "https://serper.dev/favicon.ico",
+  "name_for_human": "Search Google via Serper",
+  "name_for_model": "search-engine-serper",
+  "schema_version": "v1"
 }
