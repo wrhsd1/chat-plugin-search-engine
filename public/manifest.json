@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/openapi_2.json",
+    "url": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/openapi.json",
     "is_user_authenticated": false
   },
   "auth": {

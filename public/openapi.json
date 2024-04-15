@@ -18,35 +18,35 @@
       "post": {
         "summary": "Search Google and return top 10 results",
         "operationId": "searchGoogle",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "required": [
-                  "q"
-                ],
-                "properties": {
-                  "q": {
-                    "type": "string",
-                    "example": "今天吃什么"
-                  },
-                  "gl": {
-                    "type": "string",
-                    "description": "Google Geo location parameter",
-                    "example": "cn"
-                  },
-                  "hl": {
-                    "type": "string",
-                    "description": "Google Geo locale parameter",
-                    "example": "zh-cn"
-                  }
-                }
-              }
-            }
+        "parameters": [
+          {
+            "in": "query",
+            "name": "q",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "Search query string"
+          },
+          {
+            "in": "query",
+            "name": "gl",
+            "schema": {
+              "type": "string"
+            },
+            "required": false,
+            "description": "Google Geo location parameter"
+          },
+          {
+            "in": "query",
+            "name": "hl",
+            "schema": {
+              "type": "string"
+            },
+            "required": false,
+            "description": "Google Geo locale parameter"
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "Successful search results",
