@@ -7,11 +7,9 @@
   "auth": {
     "type": "none"
   },
-  "contact_email": "33831597+GithuBarry@users.noreply.github.com",
-  "description_for_human": "Google search engine via Serper.dev free API (2500x🆓/month)",
-  "description_for_model": "Plugin for performing web searches using the Serper.dev API to access Google search results.",
-  "legal_info_url": "https://serper.dev/terms",
-  "logo_url": "https://serper.dev/favicon.ico",
+  "description_for_human": "多引擎搜索，速度较慢，耐心等待",
+  "description_for_model": "Plugin for performing web searches using the SearX.",
+  "logo_url": "https://wrhcn001.588886.xyz/webdav/files/2024-09-01/xr7V.",
   "name_for_human": "Search Searx",
   "name_for_model": "search-engine-searx",
   "schema_version": "v1"
