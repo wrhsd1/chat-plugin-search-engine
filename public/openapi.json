@@ -8,7 +8,7 @@
       },
       "baseUrl": {
         "type": "apiKey",
-        "name": "X-BASE-URL",
+        "name": "Base-URL",
         "in": "header"
       }
     }
@@ -76,11 +76,21 @@
         },
         "security": [
           {
-            "apiAuth": [],
+            "apiAuth": []
+          },
+          {
             "baseUrl": []
           }
         ]
       }
     }
-  }
+  },
+  "security": [
+    {
+      "apiAuth": []
+    },
+    {
+      "baseUrl": []
+    }
+  ]
 }
