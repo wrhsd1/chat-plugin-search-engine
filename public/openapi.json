@@ -5,6 +5,11 @@
         "type": "apiKey",
         "name": "X-API-KEY",
         "in": "header"
+      },
+      "baseUrl": {
+        "type": "apiKey",
+        "name": "X-BASE-URL",
+        "in": "header"
       }
     }
   },
@@ -68,23 +73,14 @@
               }
             }
           }
-        },
+        ],
         "security": [
           {
-            "apiAuth": []
+            "apiAuth": [],
+            "baseUrl": []
           }
         ]
       }
     }
-  },
-  "security": [
-    {
-      "apiAuth": []
-    }
-  ],
-  "servers": [
-    {
-      "url": "https://google.serper.dev"
-    }
-  ]
+  }
 }
