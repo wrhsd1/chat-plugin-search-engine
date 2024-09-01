@@ -5,11 +5,6 @@
         "type": "apiKey",
         "name": "X-API-KEY",
         "in": "header"
-      },
-      "baseUrl": {
-        "type": "serrver",
-        "name": "Base-URL",
-        "in": "header"
       }
     }
   },
@@ -77,30 +72,19 @@
         "security": [
           {
             "apiAuth": []
-          },
-          {
-            "baseUrl": []
           }
-        ],
-        "servers": [
-          {
-            "baseUrl": []
-          }
-        ]  
+        ]
       }
     }
   },
   "security": [
     {
       "apiAuth": []
-    },
-    {
-      "baseUrl": []
     }
   ],
   "servers": [
     {
-      "baseUrl": []
+      "url": "http://searx.588886.xyz"
     }
-  ]  
+  ]
 }
