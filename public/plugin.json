@@ -4,10 +4,10 @@
   "identifier": "search-engine-searx",
   "manifest": "https://chat-plugin-search-engine-pi.vercel.app/manifest.json",
   "meta": {
-    "avatar": "🔍",
-    "description": "Google search engine via Serper.dev free API (2500x🆓/month)",
+    "avatar": "https://wrhcn001.588886.xyz/webdav/files/2024-09-01/xr7V.",
+    "description": "Search engine via SearX",
     "tags": ["web", "search"],
-    "title": "Search Google via Searx"
+    "title": "Search via Searx"
   },
   "schemaVersion": 1
 }
