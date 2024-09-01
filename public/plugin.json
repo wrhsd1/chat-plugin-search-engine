@@ -1,13 +1,13 @@
 {
   "author": "Barry",
-  "homepage": "https://github.com/GithuBarry/chat-plugin-search-engine",
-  "identifier": "search-engine-serper",
-  "manifest": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/manifest.json",
+  "homepage": "https://github.com/wrhsd1/chat-plugin-search-engine",
+  "identifier": "search-engine-searx",
+  "manifest": "https://raw.githubusercontent.com/wrhsd1/chat-plugin-search-engine/main/public/manifest.json",
   "meta": {
     "avatar": "🔍",
     "description": "Google search engine via Serper.dev free API (2500x🆓/month)",
     "tags": ["web", "search"],
-    "title": "Search Google via Serper"
+    "title": "Search Google via Searx"
   },
   "schemaVersion": 1
 }
