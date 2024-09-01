@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/wrhsd1/chat-plugin-search-engine/main/public/openapi.json",
+    "url": "https://chat-plugin-search-engine-pi.vercel.app/openapi.json",
     "is_user_authenticated": false
   },
   "auth": {
