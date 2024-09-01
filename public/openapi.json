@@ -7,7 +7,7 @@
         "in": "header"
       },
       "baseUrl": {
-        "type": "apiKey",
+        "type": "serrver",
         "name": "Base-URL",
         "in": "header"
       }
@@ -88,9 +88,11 @@
   "security": [
     {
       "apiAuth": []
-    },
+    }
+  ],
+  "servers": [
     {
       "baseUrl": []
     }
-  ]
+  ]  
 }
