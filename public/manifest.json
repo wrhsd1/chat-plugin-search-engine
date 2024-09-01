@@ -1,7 +1,7 @@
 {
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/openapi.json",
+    "url": "https://raw.githubusercontent.com/wrhsd1/chat-plugin-search-engine/main/public/openapi.json",
     "is_user_authenticated": false
   },
   "auth": {
@@ -13,6 +13,6 @@
   "legal_info_url": "https://serper.dev/terms",
   "logo_url": "https://serper.dev/favicon.ico",
   "name_for_human": "Search Google via Serper",
-  "name_for_model": "search-engine-serper",
+  "name_for_model": "search-engine-searx",
   "schema_version": "v1"
 }
