@@ -2,7 +2,7 @@
   "author": "Barry",
   "homepage": "https://github.com/wrhsd1/chat-plugin-search-engine",
   "identifier": "search-engine-searx",
-  "manifest": "https://raw.githubusercontent.com/wrhsd1/chat-plugin-search-engine/main/public/manifest.json",
+  "manifest": "https://chat-plugin-search-engine-pi.vercel.app/manifest.json",
   "meta": {
     "avatar": "🔍",
     "description": "Google search engine via Serper.dev free API (2500x🆓/month)",
