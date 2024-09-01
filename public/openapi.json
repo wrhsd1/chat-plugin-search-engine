@@ -81,13 +81,21 @@
           {
             "baseUrl": []
           }
-        ]
+        ],
+        "servers": [
+          {
+            "baseUrl": []
+          }
+        ]  
       }
     }
   },
   "security": [
     {
       "apiAuth": []
+    },
+    {
+      "baseUrl": []
     }
   ],
   "servers": [
